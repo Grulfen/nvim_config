@@ -13,8 +13,12 @@ Plug 'vim-airline/vim-airline'
 
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'altercation/vim-colors-solarized'
+Plug 'zchee/deoplete-jedi'
+Plug 'Shougo/deoplete.nvim', { 'do' : ':UpdateRemotePlugins' }
 
 call plug#end()
+
+let g:deoplete#enable_at_startup = 1
 
 syntax on 
 filetype plugin indent on
