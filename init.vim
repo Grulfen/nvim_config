@@ -10,6 +10,7 @@ Plug 'nanotech/jellybeans.vim'
 Plug 'neovimhaskell/haskell-vim'
 
 Plug 'vim-airline/vim-airline'
+Plug 'mhinz/vim-signify'
 
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'altercation/vim-colors-solarized'
